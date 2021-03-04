@@ -13,3 +13,13 @@
 .background-color {
     background-color: blue;
 }
+
+.picture {
+    background: url("../images/Hero_picture-Journeyman.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: contain;
+    width: 100%;
+
+}
