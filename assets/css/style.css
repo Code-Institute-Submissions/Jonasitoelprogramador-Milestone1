@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&display=swap');
+
 .colour {
     color: blue;
 }
@@ -16,10 +18,10 @@
 }
 
 .picture {
-    background: url("../images/tapenade_bowls.jpg");
+    background: url("../images/hands_off_my_olives.jpg");
     background-repeat: no-repeat;
-    min-height: 500px;
-    background-size: 100% 500px;
+    min-height: 700px;
+    background-size: 100% 700px;
     width: 100%;
 
 }
@@ -42,8 +44,8 @@
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 700px;
     width: 100%;
     position: absolute;
     top: 0px;
@@ -51,4 +53,8 @@
 
 .image-outer {
     position: relative;
+}
+
+.head-title {
+    font-family: 'Noto Serif KR', serif;
 }
