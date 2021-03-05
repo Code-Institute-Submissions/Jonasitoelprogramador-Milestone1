@@ -16,11 +16,10 @@
 }
 
 .picture {
-    background: url("../images/Hero_picture-Journeyman.jpg");
-    background-position: left top;
+    background: url("../images/tapenade_bowls.jpg");
     background-repeat: no-repeat;
     min-height: 500px;
-    background-size: contain;
+    background-size: 100% 500px;
     width: 100%;
 
 }
@@ -36,4 +35,8 @@
     height: 500px;
     background-color: white;
 
+}
+
+.no-padding {
+    padding: 0;
 }
