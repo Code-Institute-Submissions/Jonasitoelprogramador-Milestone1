@@ -40,3 +40,15 @@
 .no-padding {
     padding: 0;
 }
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.image-outer {
+    position: relative;
+}
