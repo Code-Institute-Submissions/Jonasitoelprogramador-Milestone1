@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&display=swap');
 
-.colour {
-    color: blue;
+.header-links {
+    color: white;
 }
 
 
@@ -29,7 +29,7 @@
 .history {
     width: 100%;
     height: 500px;
-    background-color: #ad882c;
+    background-color: #89b333;
 }
 
 .quote-section {
@@ -44,7 +44,7 @@
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     height: 700px;
     width: 100%;
     position: absolute;
@@ -57,4 +57,15 @@
 
 .head-title {
     font-family: 'Noto Serif KR', serif;
+    color: white;
+}
+
+.header-container {
+    background-color: #332d44;
+}
+
+.footer-contain {
+    background-color: #332d44;
+    height: 200px;
+    width: 100%;
 }
