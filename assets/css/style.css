@@ -2,16 +2,16 @@
 
 
 
-.main-title {
-    text-align: center;
-}
-
 .background-color {
     background-color: #729152;
 }
 
 .link-alignment {
     padding-top: 10px;
+}
+
+.link-formatting {
+    color: white;
 }
 
 .picture {
@@ -69,4 +69,20 @@
     background-color: #332d44;
     height: 200px;
     width: 100%;
+}
+
+#home-padding {
+    padding-left: 65px;
+}
+
+#about-us-padding {
+    padding-left: 0px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.footer-alignment {
+    text-align: right;
 }
