@@ -9,10 +9,6 @@
     text-align: center;
 }
 
-.row-centered {
-   text-align: center;
-}
-
 .background-color {
     background-color: #729152;
 }
@@ -58,6 +54,9 @@
 .head-title {
     font-family: 'Noto Serif KR', serif;
     color: white;
+    font-size: 350%;
+    margin-top: 40px;
+    text-align: center; 
 }
 
 .header-container {
