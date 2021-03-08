@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&display=swap');
 
-.header-links {
-    color: white;
-}
 
 
 .main-title {
@@ -11,6 +8,10 @@
 
 .background-color {
     background-color: #729152;
+}
+
+.link-alignment {
+    padding-top: 10px;
 }
 
 .picture {
@@ -61,6 +62,7 @@
 
 .header-container {
     background-color: #332d44;
+    height: 50px;
 }
 
 .footer-contain {
