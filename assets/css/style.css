@@ -26,7 +26,7 @@
 
 .history {
     width: 100%;
-    height: 400px;
+    height: 68x;
     background-color: white;
 }
 
@@ -111,4 +111,11 @@
     padding-top: 30px;
     color: #332d44;
     font-family: 'Noto Serif KR', serif;
+}
+
+.history-image {
+    height: 300px;
+    background: url("../images/clean-olives.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
 }
