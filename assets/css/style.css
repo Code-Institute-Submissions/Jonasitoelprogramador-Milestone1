@@ -187,3 +187,30 @@
     font-size: 250%;
 }
 }
+
+@media screen and (max-width: 810px) {
+    .link-alignment div {
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #home-padding {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .link-alignment div {
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 10px;
+    }
+
+    #home-padding {
+        padding-left: 30px;
+    }
+}
