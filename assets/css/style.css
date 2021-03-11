@@ -23,9 +23,8 @@
     background: url("../images/hands_off_my_olives.jpg");
     background-repeat: no-repeat;
     min-height: 700px;
-    background-size: 100% 700px;
     width: 100%;
-
+    background-size: cover;
 }
 
 .history-title {
@@ -173,5 +172,18 @@
     padding-bottom: 0px;
     padding-left: 40px;
     padding-right: 40px;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .picture {
+    min-height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+    .head-title {
+    font-size: 250%;
 }
 }
