@@ -167,3 +167,11 @@
         font-size: 15px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .history-text p {
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+}
