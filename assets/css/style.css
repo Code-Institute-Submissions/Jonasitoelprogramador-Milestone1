@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&display=swap');
 
+/*-------------------------------------------header*/
 
-.background-color {
-    background-color: #729152;
+#home-padding {
+    padding-left: 65px;
+}
+
+.header-container {
+    background-color: #332d44;
+    height: 50px;
 }
 
 .link-alignment {
@@ -24,31 +30,14 @@
     padding: 0;
 }
 
+/*-------------------------------------------------hero image*/
+
 .picture {
     background: url("../images/hands_off_my_olives.jpg");
     background-repeat: no-repeat;
     min-height: 700px;
     width: 100%;
     background-size: cover;
-}
-
-.history-title {
-    width: 100%;
-    background-color: white;
-    padding-top: 30px;
-    color: #332d44;
-    font-family: 'Noto Serif KR', serif;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.quote-section {
-    width: 100%;
-    background-color: #89b333;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 
@@ -72,45 +61,16 @@
     text-align: center; 
 }
 
-.header-container {
-    background-color: #332d44;
-    height: 50px;
-}
+/*-------------------------------------------------history*/
 
-.footer-container {
-    background-color: #332d44;
+.history-title {
     width: 100%;
-}
-
-#home-padding {
-    padding-left: 65px;
-}
-
-#about-us-padding {
-    padding-left: 0px;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.footer-alignment {
-    text-align: right;
-}
-
-.media-links {
-    text-align: center;
-    font-size: 50px;
-    line-height: 200px;
-    padding-right: 40px;
-    color: white;
-    margin-bottom: 0;
-}
-
-.contact {
-    padding-top: 50px;
-    color: white;
+    background-color: white;
+    padding-top: 30px;
+    color: #332d44;
     font-family: 'Noto Serif KR', serif;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .history-text {
@@ -139,6 +99,22 @@
     margin-right: auto;
 }
 
+
+.history-text p {
+    padding-bottom: 15px;
+}
+
+/*-------------------------------------------------quote section*/
+
+.quote-section {
+    width: 100%;
+    background-color: #89b333;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .quote-info {
     text-align: right;
     font-size: 25px;
@@ -150,9 +126,37 @@
     font-family: 'Noto Serif KR', serif;
 }
 
-.history-text p {
-    padding-bottom: 15px;
+/*-------------------------------------------------footer*/
+
+.footer-container {
+    background-color: #332d44;
+    width: 100%;
 }
+
+.footer-alignment {
+    text-align: right;
+}
+
+.media-links {
+    text-align: center;
+    font-size: 50px;
+    line-height: 200px;
+    padding-right: 40px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.contact {
+    padding-top: 50px;
+    color: white;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*--------------------------------------------------------- media quieries */
 
 @media screen and (max-width: 950px) {
     .quote {
