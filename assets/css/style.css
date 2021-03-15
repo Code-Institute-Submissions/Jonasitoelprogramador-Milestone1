@@ -231,3 +231,15 @@
         font-size: 8px;
 }
 }
+
+/*--------------------------------------------------------- green machine */
+
+.green-machine-image {
+    background: url("../images/green-machine.jpeg");
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
