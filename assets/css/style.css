@@ -248,19 +248,23 @@
 .red-machine-image {
     background: url("../images/red_paste.jpg");
     background-repeat: no-repeat;
-    min-height: 100%;
-    width: 100%;
+    min-height: 500px;
+    width: 33%;
     background-size: cover;
     background-position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .kalamata-machine-image {
     background: url("../images/kalamata.jpeg");
     background-repeat: no-repeat;
-    min-height: 100%;
-    width: 100%;
+    min-height: 500px;
+    width: 33%;
     background-size: cover;
     background-position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product-info-image-row-formatting {
@@ -282,6 +286,18 @@
     padding-top: 20px;
 }
 
-.product-info-row-formatting p {
-    font-family: #89b333;
+.info-paragraph-format {
+    color: white;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.info-h3-formating {
+    text-align: center;
+    font-family: 'Noto Serif KR', serif;
+}
+
+hr {
+  border: none;
+  height: 50px;
+  background-color: turquoise;
 }
