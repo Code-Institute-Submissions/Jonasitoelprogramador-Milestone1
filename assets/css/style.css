@@ -326,3 +326,9 @@
             margin-top: 30px;
 }
 }    
+
+@media screen and (max-width: 1077px) {
+    .green-machine-image {
+        width: 450px;
+}
+}
