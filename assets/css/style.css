@@ -284,7 +284,9 @@
 
 .product-info-row-formatting div {
     padding-top: 20px;
+    background-color: #89b333;
 }
+
 
 .info-paragraph-format {
     color: white;
@@ -296,8 +298,23 @@
     font-family: 'Noto Serif KR', serif;
 }
 
-hr {
-  border: none;
-  height: 50px;
-  background-color: turquoise;
+@media screen and (max-width: 530px) {
+    .green-machine-image {
+        width: 100%;
+    }
+
+    .kalamata-machine-image {
+        width: 100%;
+    }
+
+
+    .red-machine-image {
+        width: 100%;
+    }
 }
+
+@media screen and (max-width: 388px) {
+    #stop-overlap {
+            margin-top: 30px;
+}
+}    
