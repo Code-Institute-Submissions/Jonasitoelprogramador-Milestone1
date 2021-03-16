@@ -129,7 +129,7 @@
 /*-------------------------------------------------footer*/
 
 .footer-container {
-    background-color: #332d44;
+    background-color: ;
     width: 100%;
 }
 
@@ -273,18 +273,13 @@
 
 .product-info-image-row-formatting div {
     background-color: white;
-}
-
-.product-info-image-row-formatting h2 {
-    text-align: center;
-    padding-top: 25px;
-    color: #332d44;
-    font-family: 'Noto Serif KR', serif;
+    padding-top: 20px;
 }
 
 .product-info-row-formatting div {
     padding-top: 20px;
     background-color: #89b333;
+    padding-bottom: 15px;
 }
 
 
@@ -295,6 +290,15 @@
 
 .info-h3-formating {
     text-align: center;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.product-info-image-title-row-formatting {
+    height: 60px;
+    background-color: white;
+    padding-top: 25px;
+    text-align: center;
+    color: #332d44;
     font-family: 'Noto Serif KR', serif;
 }
 
