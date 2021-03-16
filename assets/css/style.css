@@ -242,7 +242,7 @@
     background: url("../images/green-machine.jpeg");
     background-repeat: no-repeat;
     min-height: 500px;
-    width: 33%;
+    width: 450px;
     background-size: cover;
     background-position: center;
     margin-left: auto;
@@ -253,7 +253,7 @@
     background: url("../images/red_paste.jpg");
     background-repeat: no-repeat;
     min-height: 500px;
-    width: 33%;
+    width: 450px;
     background-size: cover;
     background-position: center;
     margin-left: auto;
@@ -264,7 +264,7 @@
     background: url("../images/kalamata.jpeg");
     background-repeat: no-repeat;
     min-height: 500px;
-    width: 33%;
+    width: 450px;
     background-size: cover;
     background-position: center;
     margin-left: auto;
@@ -306,6 +306,14 @@
     font-family: 'Noto Serif KR', serif;
 }
 
+
+@media screen and (max-width: 388px) {
+    #stop-overlap {
+            margin-top: 30px;
+}
+}    
+
+
 @media screen and (max-width: 530px) {
     .green-machine-image {
         width: 100%;
@@ -319,16 +327,4 @@
     .red-machine-image {
         width: 100%;
     }
-}
-
-@media screen and (max-width: 388px) {
-    #stop-overlap {
-            margin-top: 30px;
-}
-}    
-
-@media screen and (max-width: 1077px) {
-    .green-machine-image {
-        width: 450px;
-}
 }
