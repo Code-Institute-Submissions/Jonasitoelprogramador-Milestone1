@@ -129,7 +129,11 @@
 /*-------------------------------------------------footer*/
 
 .footer-container {
-    background-color: ;
+    background-color: #332d44;
+    width: 100%;
+}
+
+.footer-container row {
     width: 100%;
 }
 
