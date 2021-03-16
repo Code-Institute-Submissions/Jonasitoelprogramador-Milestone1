@@ -328,3 +328,16 @@
         width: 100%;
     }
 }
+
+/*--------------------------------------------------------- about */
+
+.about-image {
+   background: url("../images/clean-olives.jpg");
+    background-repeat: no-repeat;
+    min-height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
