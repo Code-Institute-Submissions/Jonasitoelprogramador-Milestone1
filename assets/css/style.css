@@ -364,9 +364,30 @@ form {
     font-family: 'Noto Serif KR', serif;
 }
 
+#about-image-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 @media screen and (max-width: 991px) {
    .our-story-text p {
       padding-right: 30px;
       padding-left: 30px;  
    } 
+
+   .about-image {
+    background: url("../images/olives_at_sunset.jpg");
+    min-height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    }
+
+    #about-image-padding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+}
+
