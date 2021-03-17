@@ -341,3 +341,25 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.our-story-text h2 {
+    text-align: center; 
+    padding-top: 20px;
+    color: #332d44;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.our-story-text p {
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    color: #332d44;
+    font-family: 'Noto Serif KR', serif;
+}
+
+form {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #332d44;
+    font-family: 'Noto Serif KR', serif;
+}
