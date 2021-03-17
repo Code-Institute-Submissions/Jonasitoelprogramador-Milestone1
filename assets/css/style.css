@@ -332,9 +332,9 @@
 /*--------------------------------------------------------- about */
 
 .about-image {
-   background: url("../images/clean-olives.jpg");
+   background: url("../images/thin-olives.jpg");
     background-repeat: no-repeat;
-    min-height: 300px;
+    min-height: 100%;
     width: 300px;
     background-size: cover;
     background-position: center;
@@ -362,4 +362,11 @@ form {
     padding-bottom: 20px;
     color: #332d44;
     font-family: 'Noto Serif KR', serif;
+}
+
+@media screen and (max-width: 991px) {
+   .our-story-text p {
+      padding-right: 30px;
+      padding-left: 30px;  
+   } 
 }
