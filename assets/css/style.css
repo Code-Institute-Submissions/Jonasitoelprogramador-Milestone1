@@ -36,11 +36,12 @@
 /*-------------------------------------------------hero image*/
 
 .picture {
-    background: url("../images/hands_off_my_olives.jpg");
+    background: url("../images/hands-off-cropped.png");
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 600px;
     width: 100%;
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -208,13 +209,6 @@
 
 
 @media screen and (max-width: 900px) {
-    .picture {
-    min-height: 700px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-}
-
     .head-title {
     font-size: 250%;
 }
