@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&display=swap');
 
+/*-------------------------------------------universal*/
+
+.text-align-centre {
+    text-align: center;
+}
+
 /*-------------------------------------------header*/
 
     
@@ -327,10 +333,6 @@
     padding-left: 15px;
 }
 
-.info-h3-formating {
-    text-align: center;
-    font-family: 'Noto Serif KR', serif;
-}
 
 .product-info-image-title-row-formatting {
     height: 60px;
