@@ -53,11 +53,46 @@ That said, there are images of jars of tapenade on the product info page as it i
 [Wireframes] (./wireframes/wireframes_journeyman.pdf)
 
 ##Features
-The site is compromised of 3 separate pages: "Home" page, "Product Info" page and "About Us" page.  All three pages are responsive (computer, ipad,
-smartphone or anything in between!) and have a header that contains the navigation links for navigation within the site and a footer that contains
-contact info as well as links to social media.
-The index/home page contains a hero image and two responsive bootstrap rows.  The first of which explains what tapenade is and the second contains 
-a quote.
-The Product Info section is split into 9 bootstrap rows which are grouped into 3s, and each group relates to a Journeyman Tapenade product.  For 
-example, the first group contains a row for the title of the product, a row for an image of the product and a row that contains text about the 
-product.  
+  The site is compromised of 3 separate pages: "Home" page, "Product Info" page and "About Us" page.  
+  
+  All three pages are responsive (computer, ipad, smartphone or anything in between!).  This responsive design is achieved through a combination of 
+bootstrap columns which alter their widths as viewport size changes and media queries at different intervals.  This allows users to access the site 
+on all devices and ensures that they will have a positive emotional reaction when they do so.  
+
+  Each page has a header that contains the navigation links for navigation within the site.  This allows users to navigate quickly and easily through
+the application.  In addition, there is footer on each page that contains contact info as well as links to social media that open in a new tab.  The 
+latter ensures that users are able to see public opinions about the brand without forgetting where they were directed from.
+
+
+The index/home page contains a hero image and two responsive bootstrap rows, the first of which explains what tapenade is and the second contains 
+a quote.  The hero image is designed to entice the user further into the site by soliciting in them a positive opinion from the outset the bootstrap rows
+encourage the user to educate themselves about tapenade and thus understand the aim and content of the website as a whole.
+
+
+The Product Info page is split into 9 bootstrap rows which are grouped into 3s where each group relates to a Journeyman Tapenade product.  Each group 
+contains a row for the title of the product, a row for an image of the product and a row that contains text about the product.  This number of rows is 
+employed in this page in order to allow for maximum responsiveness in on the page.  This allows for the products to be preseneted in the best possible
+light across all device sizes. 
+
+
+The "About Us" page is comprised of a bootstrap row split into three bootstrap columns containing an image, text and a form respectively.  The form clearly
+allows the user to contact Journeyman Tapenade quickly and easily without having to leave the site.  The placement of the "Our Story" section next to the 
+form gives the user more information as to the nature of the company that they are contacting.
+
+##Technologies
+
+###Languages 
+HTML5 was used in order to provide the text content the structure of the site.
+CSS3 was used to add styling.
+
+##Frameworks, Libraries and Programs
+
+Bootstrap: was used to add responsivess and to aid with the structure of the site.
+Hover.CSS3: was used on the nav links in the header and the social media links in the footer in order that they take on the olive green colour in the colour scheme
+when hovered over.
+Google Fonts: was used in order to import the font that is used across the website ('Noto Serif KR')
+Font Awesome: was used in order to add icons to the nav-bar in the header as well as the social media icons in the footer.
+Git: was used to input 
+GitHub:
+Canva: https://www.canva.com/photo-editor/
+Balsamiq:
