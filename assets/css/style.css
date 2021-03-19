@@ -208,7 +208,7 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {    
     .head-title {
     font-size: 250%;
 }

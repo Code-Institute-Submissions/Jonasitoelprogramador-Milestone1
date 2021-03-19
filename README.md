@@ -49,4 +49,15 @@ primary font not loading.
 The website makes use of lots of olive-related imagery as olives and olive trees/branches are more aesthetically appealing than pictures of tapenade.
 That said, there are images of jars of tapenade on the product info page as it is important to give a visual representation of the product being promoted.
 
+###Wireframes
+[Wireframes] (./wireframes/wireframes_journeyman.pdf)
 
+##Features
+The site is compromised of 3 separate pages: "Home" page, "Product Info" page and "About Us" page.  All three pages are responsive (computer, ipad,
+smartphone or anything in between!) and have a header that contains the navigation links for navigation within the site and a footer that contains
+contact info as well as links to social media.
+The index/home page contains a hero image and two responsive bootstrap rows.  The first of which explains what tapenade is and the second contains 
+a quote.
+The Product Info section is split into 9 bootstrap rows which are grouped into 3s, and each group relates to a Journeyman Tapenade product.  For 
+example, the first group contains a row for the title of the product, a row for an image of the product and a row that contains text about the 
+product.  
