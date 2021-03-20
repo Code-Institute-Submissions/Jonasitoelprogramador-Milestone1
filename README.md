@@ -98,3 +98,34 @@ Canva: was used to edit some of the photos on the site  (link: https://www.canva
 Balsamiq: was used to create wireframes of the website to serve as a reference point when coding. (link: https://balsamiq.com/)
 Shutterstock: was used to source some of the images for the site. (link: https://www.shutterstock.com/)
 Unsplash: was used to source some of the images for the site. (link: https://unsplash.com/)
+
+##Testing
+
+1. As a First Time Visitor, I want to have a positive emotional response when visiting the site (be impressed with the quality of the website) to that I am encouraged to return.
+    1. The landing page has a hero image designed to attract the user's attention and to give the impression of quality.
+    2.  The website follows a strict colour schemata designed to give the impression of control and attention to detail.
+    3.  The website combines humour and a light-hearted tone e.g. in the "quote" section on the home page and the "fact file" section on the product info page.  The aim of this is 
+    to entertain users as well as to educate them about Tapenade adding to their positive experience.  
+
+2. As a First Time Visitor, I want to be able to move through the website in order to access the site's content.
+    1. There is a clear and intuitive navigation bar that provides clear links to the 3 pages of the site.
+    2. The links change colour when hovered over in order to assure the user that the links work and that they are fully responsive.
+    3. The nav-bar occurs across all three pages of the website so as to always give the user the option of navigating to another page. 
+
+3. As a First Time Visitor, I want to be able to understand the basics of the brand and the products that are being promoted.
+    1. The landing page of the site has a lot of imagery which ties into the overall theme of the brand (olives and tapenade) and there is an explanation of tapenade (the main product)
+    below the hero image.  The top of this section is visible in order to show the fitst-time user that there is more content on the page.
+    2. There is a clearly labelled "about us" page which contains text detailing the history and aim of the brand.
+    3. There is also a clearly labelled "product info" page which showcases the 3 products with images and text description.  
+
+
+1. As a Returning Visitor, I want to be able to contact the business and be able to find their social meadia links.
+    1.  In the footer, which exists across all three pages, there is a phone number and email address of the business so that users are able to find the information to contact the
+    company whichever page they are on.
+    2.  The footer also features social media links which are in the format of icons in other make them more eye-catching and also change colour when hovered over in the same way
+    as the nav-bar links. 
+    3. Furthermore, there is a "Contact Us" section of the "About Us" page which allows the user to contact the company without having to leave the site.
+2. As a Returning Visitor, I want to be able to access the website on various different screen sizes and for it still to evoke a positive response.
+    1. By implementing a combination of bootstrap responsive design and media queries at varying viewport widths, the website is fully responsive with regards to the viewport 
+    size of the device that it is being viewed on.  
+    2. Thus, the user...
