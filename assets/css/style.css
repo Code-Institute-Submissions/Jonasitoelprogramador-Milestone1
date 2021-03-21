@@ -553,3 +553,15 @@ iframe {
         background-color: #89b333; 
         padding-bottom: 10px;
     }
+
+    @media screen and (max-width: 810px) {
+    .video-title {
+        font-size: 25px;
+}
+}
+
+@media screen and (max-width: 445px) {
+    .video-title {
+        font-size: 18px;
+}
+    }

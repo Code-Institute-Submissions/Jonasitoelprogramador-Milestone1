@@ -53,7 +53,7 @@ That said, there are images of jars of tapenade on the product info page as it i
 [Wireframes] (./wireframes/wireframes_journeyman.pdf)
 
 ##Features
-  The site is compromised of 3 separate pages: "Home" page, "Product Info" page and "About Us" page.  
+  The site is compromised of 4 separate pages: "Home" page, "Product Info" page, "Videos" page and "About Us" page.  
   
   All three pages are responsive (computer, ipad, smartphone or anything in between!).  This responsive design is achieved through a combination of 
 bootstrap columns which alter their widths as viewport size changes and media queries at different intervals.  This allows users to access the site 
@@ -101,6 +101,8 @@ Unsplash: was used to source some of the images for the site. (link: https://uns
 
 ##Testing
 
+###Manual Testing
+
 1. As a First Time Visitor, I want to have a positive emotional response when visiting the site (be impressed with the quality of the website) to that I am encouraged to return.
     1. The landing page has a hero image designed to attract the user's attention and to give the impression of quality.
     2.  The website follows a strict colour schemata designed to give the impression of control and attention to detail.
@@ -128,4 +130,8 @@ Unsplash: was used to source some of the images for the site. (link: https://uns
 2. As a Returning Visitor, I want to be able to access the website on various different screen sizes and for it still to evoke a positive response.
     1. By implementing a combination of bootstrap responsive design and media queries at varying viewport widths, the website is fully responsive with regards to the viewport 
     size of the device that it is being viewed on.  
-    2. Thus, the user...
+    2. Thus, the site will be aesthetically pleasing to the user on matter the viewport size.
+
+###Automated Testing
+
+  The HTML and the CSS code were put through the W3C schools HTML and CSS validators respectively to eliminated any potential syntax errors. 
