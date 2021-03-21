@@ -458,3 +458,85 @@ form {
     padding-top: 20px;
 }
 
+/*-------------------------------------------videos*/
+
+.top-row-videos {
+    margin-top: 30px;
+}
+
+.bottom-row-videos {
+    margin-bottom: 25px;
+}
+
+iframe {
+    height: 430px;
+    width: 550px;
+}
+
+@media screen and (max-width: 1160px) {
+    iframe {
+    height: 387px;
+    width: 440px
+}
+}
+
+@media screen and (max-width: 991px) {
+    iframe {
+        height: 480px;
+        width: 750px;
+    }
+
+    .top-row-videos div {
+        text-align: center;
+    }
+
+    .bottom-row-videos div {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    iframe {
+        height: 384px;
+        width: 600px;
+    }
+
+    .top-row-videos div {
+        text-align: center;
+    }
+
+    .bottom-row-videos div {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    iframe {
+        height: 288px;
+        width: 450px;
+    }
+
+    .top-row-videos div {
+        text-align: center;
+    }
+
+    .bottom-row-videos div {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    iframe {
+        height: 192px;
+        width: 300px;
+    }
+
+    .top-row-videos div {
+        text-align: center;
+    }
+
+    .bottom-row-videos div {
+        text-align: center;
+    }
+}
+
