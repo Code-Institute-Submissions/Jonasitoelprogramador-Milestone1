@@ -50,7 +50,7 @@ The website makes use of lots of olive-related imagery as olives and olive trees
 That said, there are images of jars of tapenade on the product info page as it is important to give a visual representation of the product being promoted.
 
 ###Wireframes
-[Wireframes] (./wireframes/wireframes_journeyman.pdf)
+[Wireframes] (./assets/wireframes/wireframes_for_journeyman)
 
 ##Features
   The site is compromised of 4 separate pages: "Home" page, "Product Info" page, "Videos" page and "About Us" page.  
@@ -108,18 +108,20 @@ Unsplash: was used to source some of the images for the site. (link: https://uns
     2.  The website follows a strict colour schemata designed to give the impression of control and attention to detail.
     3.  The website combines humour and a light-hearted tone e.g. in the "quote" section on the home page and the "fact file" section on the product info page.  The aim of this is 
     to entertain users as well as to educate them about Tapenade adding to their positive experience.  
+NB. see (./assets/screenshots/screenshots_a) for visual evidence of this.  
 
 2. As a First Time Visitor, I want to be able to move through the website in order to access the site's content.
     1. There is a clear and intuitive navigation bar that provides clear links to the 3 pages of the site.
     2. The links change colour when hovered over in order to assure the user that the links work and that they are fully responsive.
     3. The nav-bar occurs across all four pages of the website so as to always give the user the option of navigating to another page. 
+NB. see (./assets/screenshots/screenshots_b) for visual representation of this.
 
 3. As a First Time Visitor, I want to be able to understand the basics of the brand and the products that are being promoted.
     1. The landing page of the site has a lot of imagery which ties into the overall theme of the brand (olives and tapenade) and there is an explanation of tapenade (the main product)
     below the hero image.  The top of this section is visible in order to show the fitst-time user that there is more content on the page.
     2. There is a clearly labelled "about us" page which contains text detailing the history and aim of the brand.
     3. There is also a clearly labelled "product info" page which showcases the 3 products with images and text description.  
-
+NB. see (./assets/screenshots/screenshots_c) for visual representation of this.
 
 1. As a Returning Visitor, I want to be able to contact the business and be able to find their social meadia links.
     1.  In the footer, which exists across all three pages, there is a phone number and email address of the business so that users are able to find the information to contact the
@@ -127,12 +129,28 @@ Unsplash: was used to source some of the images for the site. (link: https://uns
     2.  The footer also features social media links which are in the format of icons in other make them more eye-catching and also change colour when hovered over in the same way
     as the nav-bar links. 
     3. Furthermore, there is a "Contact Us" section of the "About Us" page which allows the user to contact the company without having to leave the site.
+NB. see (./assets/screenshots/screenshots_d) for visual representation of this.
+
 2. As a Returning Visitor, I want to be able to access the website on various different screen sizes and for it still to evoke a positive response.
     1. By implementing a combination of bootstrap responsive design and media queries at varying viewport widths, the website is fully responsive with regards to the viewport 
     size of the device that it is being viewed on.  
     2. Thus, the site will be aesthetically pleasing to the user on matter the viewport size.
+NB. see (./assets/screenshots/screenshots_e) for visual representation of this.
+
+In order to ensure broad functionality, the website was tested across a variety of internet browsers such as Google Chrome, Internet Explorer, Microsoft Edge and Safari.  
+In addition, dev tools was used to test the site across a range of devices in order to ensure there were no bugs specific to a given device.
 
 ###Automated Testing
 
   The HTML and the CSS code were put through the W3C schools HTML and CSS validators respectively to eliminated any potential syntax errors.
-  
+
+###Bugs
+
+Bug: The "What is Tapenade?" on the index page had a slight grey discolouration.
+Fix: The "overlay" div was set to be too high thus bleeding into the "What is Tapenade?" section.
+
+Bug: "history-image-1" and "history-image-2" would not display centrally within their columns.
+Fix: The margin left and right values were set to auto, thus allowing for responsiveness whilst ensuring the images were always centered. 
+
+Bug: The hero image on the index page would become distorted when the viewport size was reduced.
+Fix: I used an editing program to crop the image in order to change its dimensions. 
