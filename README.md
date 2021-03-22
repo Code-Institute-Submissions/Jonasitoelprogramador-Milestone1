@@ -112,7 +112,7 @@ Unsplash: was used to source some of the images for the site. (link: https://uns
 2. As a First Time Visitor, I want to be able to move through the website in order to access the site's content.
     1. There is a clear and intuitive navigation bar that provides clear links to the 3 pages of the site.
     2. The links change colour when hovered over in order to assure the user that the links work and that they are fully responsive.
-    3. The nav-bar occurs across all three pages of the website so as to always give the user the option of navigating to another page. 
+    3. The nav-bar occurs across all four pages of the website so as to always give the user the option of navigating to another page. 
 
 3. As a First Time Visitor, I want to be able to understand the basics of the brand and the products that are being promoted.
     1. The landing page of the site has a lot of imagery which ties into the overall theme of the brand (olives and tapenade) and there is an explanation of tapenade (the main product)
@@ -134,4 +134,5 @@ Unsplash: was used to source some of the images for the site. (link: https://uns
 
 ###Automated Testing
 
-  The HTML and the CSS code were put through the W3C schools HTML and CSS validators respectively to eliminated any potential syntax errors. 
+  The HTML and the CSS code were put through the W3C schools HTML and CSS validators respectively to eliminated any potential syntax errors.
+  
