@@ -140,6 +140,8 @@ NB. see (./assets/screenshots/screenshots_e) for visual representation of this.
 In order to ensure broad functionality, the website was tested across a variety of internet browsers such as Google Chrome, Internet Explorer, Microsoft Edge and Safari.  
 In addition, dev tools was used to test the site across a range of devices in order to ensure there were no bugs specific to a given device.
 
+Finally, the links, image loading and media were tested by serveral different individuals across various browsers to ensure functionability.
+
 ###Automated Testing
 
   The HTML and the CSS code were put through the W3C schools HTML and CSS validators respectively to eliminated any potential syntax errors.
@@ -154,3 +156,27 @@ Fix: The margin left and right values were set to auto, thus allowing for respon
 
 Bug: The hero image on the index page would become distorted when the viewport size was reduced.
 Fix: I used an editing program to crop the image in order to change its dimensions. 
+
+##Deployment
+
+The project was deployed to GitHub Pages using the following steps...
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+Scroll down the Settings page until you locate the "GitHub Pages" Section.
+Under "Source", click the dropdown called "None" and select "Master Branch".
+The page will automatically refresh.
+Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+##Credits
+
+###Readme
+The "Deployment" section of the Readme file is obtained from the Code Institue SampleREADME document which can be found: (https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+
+###Content
+The HTML that creates the form on the "About Us" page was obtained from the WC3 schools website: (https://www.w3schools.com/html/html_forms.asp)
+
+###Media
+All images were obtained from Shutterstock and Unsplash (for links see Frameworks, Libraries and Programs section).
+Videos are from Youtube and they are external links i.e. they are not hosted by this site.
