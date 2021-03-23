@@ -96,15 +96,24 @@ CSS3 was used to add styling.
 ##Frameworks, Libraries and Programs
 
 Bootstrap: was used to add responsivess and to aid with the structure of the site. (link: https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
 Hover.CSS3: was used on the nav links in the header and the social media links in the footer in order that they take on the olive green colour in the colour scheme. 
 when hovered over. (link: https://ianlunn.github.io/Hover/)
+
 Google Fonts: was used in order to import the font that is used across the website ('Noto Serif KR'). (link: https://fonts.google.com/)
+
 Font Awesome: was used in order to add icons to the nav-bar in the header as well as the social media icons in the footer. (link: https://fontawesome.com/)
+
 Git: was used to save changes in the website's files.  Gitpod terminal was used to save changes to Git and Push to send these changes to GitHub. (link: https://git-scm.com/)
+
 GitHub: where the files are stored after being "pushed". (link: https://github.com/)
+
 Canva: was used to edit some of the photos on the site  (link: https://www.canva.com/photo-editor/)
+
 Balsamiq: was used to create wireframes of the website to serve as a reference point when coding. (link: https://balsamiq.com/)
+
 Shutterstock: was used to source some of the images for the site. (link: https://www.shutterstock.com/)
+
 Unsplash: was used to source some of the images for the site. (link: https://unsplash.com/)
 
 ##Testing
@@ -157,12 +166,15 @@ The HTML and the CSS code were put through the W3C schools HTML and CSS validato
 ###Bugs
 
 Bug: The "What is Tapenade?" on the index page had a slight grey discolouration.
+
 Fix: The "overlay" div was set to be too high thus bleeding into the "What is Tapenade?" section.
 
 Bug: "history-image-1" and "history-image-2" would not display centrally within their columns.
+
 Fix: The margin left and right values were set to auto, thus allowing for responsiveness whilst ensuring the images were always centered. 
 
 Bug: The hero image on the index page would become distorted when the viewport size was reduced.
+
 Fix: I used an editing program to crop the image in order to change its dimensions. 
 
 ##Deployment
