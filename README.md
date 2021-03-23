@@ -204,6 +204,7 @@ The "Deployment" section of the Readme file is obtained from the Code Institue S
 ###Content
 
 The HTML that creates the form on the "About Us" page was obtained from the WC3 schools website: (https://www.w3schools.com/html/html_forms.asp)
+The text for the "What is Tapenade?" section on the index page can be found on this wikipedia page: "(https://en.wikipedia.org/wiki/Tapenade)"
 
 ###Media
 
