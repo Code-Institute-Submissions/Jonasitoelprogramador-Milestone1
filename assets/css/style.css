@@ -196,7 +196,7 @@
     color: #89b333;
 }
 
-/*--------------------------------------------------------- media quieries */
+/*--------------------------------------------------------- media quieries for index page*/
 
 @media screen and (max-width: 950px) {
     .quote {
@@ -224,13 +224,6 @@
         font-size: 10px;
     }
 }
-
-
-/*@media screen and (max-width: 1160px) {    
-    .head-title {
-    font-size: 500%;
-}
-}*/
 
 @media screen and (max-width: 690px) {
     .link-alignment div {
@@ -262,7 +255,6 @@
         padding-left: 10px;
     }
 }
-
 
 @media screen and (max-width: 768px) {
 .history-image-1 {
@@ -338,13 +330,11 @@
     padding-bottom: 15px;
 }
 
-
 .info-paragraph-format {
     color: white;
     font-family: 'Noto Serif KR', serif;
     padding-left: 15px;
 }
-
 
 .product-info-image-title-row-formatting {
     height: 60px;
@@ -365,13 +355,11 @@
     background-color: black;
 }
 
-
 @media screen and (max-width: 388px) {
     #stop-overlap {
             margin-top: 30px;
 }
 }    
-
 
 @media screen and (max-width: 530px) {
     .green-machine-image {
@@ -449,7 +437,6 @@ form {
     padding-right: 0px;
 }
 }
-
 
 #contact-us-title {
     color: #332d44;
@@ -564,4 +551,4 @@ iframe {
     .video-title {
         font-size: 18px;
 }
-    }
+}

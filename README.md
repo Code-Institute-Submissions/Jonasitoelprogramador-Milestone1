@@ -180,3 +180,4 @@ The HTML that creates the form on the "About Us" page was obtained from the WC3 
 ###Media
 All images were obtained from Shutterstock and Unsplash (for links see Frameworks, Libraries and Programs section).
 Videos are from Youtube and they are external links i.e. they are not hosted by this site.
+
