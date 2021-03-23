@@ -14,7 +14,7 @@ the aim of this website is threefold:
 2.  Showcase and promote the upcoming line of tapenade related products.
 3.  Explain how Journeyman the brand was conceived and provide people with the possibility of getting in touch.
 
-This website targets food-enthusiasts, amateur/professional cooks and travel-oriented people.  People who are always on the look-out
+This website targets food-enthusiasts, amateur/professional cooks and travel-oriented people.  People who are always on the lookout
 for a new ingredient to spice up their cooking or who are adventurous when it comes to food and enjoy seeking out different flavours. 
 The website helps this cross-section of people by informing users about tapenade (what it is, where it comes from, 
 the different types) and by showcasing and promoting the upcoming line of tapenade products (as well as perhaps to suggest a few recipes 
@@ -23,15 +23,15 @@ involving tapenade!).
 ###User Stories
 
 ####First-time-users
-As a First Time Visitor, I want to have a positive emotional response when visiting the site (be impressed with the quality of the website) to that I am encourgaed to return.
+As a First Time Visitor, I want to have a positive emotional response when visiting the site (be impressed with the quality of the website) so that I am encourgaed to return.
 As a First Time Visitor, I want to be able to move through the website in order to access the site's content.
 As a First Time Visitor, I want to be able to understand the basics of the brand and the products that are being promoted.
 
 ####Returning-users
-As a Returning Visitor, I want to be able to contact the bussiness and be able to find their social meadia links.
+As a Returning Visitor, I want to be able to contact the business and be able to find their social meadia links.
 As a Returning Visitor, I want to be able to access the website on various different screen sizes and for it to evoke a positive response.
 
-An example of a user visiting the site for the first time could be someone who arrives on he landing page, reads the blurb about what tapenade is,
+An example of a user visiting the site for the first time could be someone who arrives on the landing page, reads the blurb about what tapenade is,
 looks through the product list and send Journeyman a message asking when the products will be availiable. 
 
 ###Design
@@ -55,7 +55,7 @@ That said, there are images of jars of tapenade on the product info page as it i
 ##Features
   The site is compromised of 4 separate pages: "Home" page, "Product Info" page, "Videos" page and "About Us" page.  
   
-  All three pages are responsive (computer, ipad, smartphone or anything in between!).  This responsive design is achieved through a combination of 
+  All four pages are responsive (computer, ipad, smartphone or anything in between!).  This responsive design is achieved through a combination of 
 bootstrap columns which alter their widths as viewport size changes and media queries at different intervals.  This allows users to access the site 
 on all devices and ensures that they will have a positive emotional reaction when they do so.  
 
@@ -65,13 +65,13 @@ latter ensures that users are able to see public opinions about the brand withou
 
 
 The index/home page contains a hero image and two responsive bootstrap rows, the first of which explains what tapenade is and the second contains 
-a quote.  The hero image is designed to entice the user further into the site by soliciting in them a positive opinion from the outset the bootstrap rows
+a quote.  The hero image is designed to entice the user further into the site by soliciting in them a positive opinion from the outset and the content of the bootstrap rows
 encourage the user to educate themselves about tapenade and thus understand the aim and content of the website as a whole.
 
 
 The Product Info page is split into 9 bootstrap rows which are grouped into 3s where each group relates to a Journeyman Tapenade product.  Each group 
 contains a row for the title of the product, a row for an image of the product and a row that contains text about the product.  This number of rows is 
-employed in this page in order to allow for maximum responsiveness in on the page.  This allows for the products to be preseneted in the best possible
+employed in the page in order to allow for maximum responsiveness on the page.  This allows for the products to be preseneted in the best possible
 light across all device sizes. 
 
 
@@ -103,15 +103,15 @@ Unsplash: was used to source some of the images for the site. (link: https://uns
 
 ###Manual Testing
 
-1. As a First Time Visitor, I want to have a positive emotional response when visiting the site (be impressed with the quality of the website) to that I am encouraged to return.
+1. As a First Time Visitor, I want to have a positive emotional response when visiting the site (be impressed with the quality of the website) so that I am encouraged to return.
     1. The landing page has a hero image designed to attract the user's attention and to give the impression of quality.
     2.  The website follows a strict colour schemata designed to give the impression of control and attention to detail.
     3.  The website combines humour and a light-hearted tone e.g. in the "quote" section on the home page and the "fact file" section on the product info page.  The aim of this is 
-    to entertain users as well as to educate them about Tapenade adding to their positive experience.  
+    to entertain users as well as to educate them about Tapenade, adding to their positive experience.  
 NB. see (./assets/screenshots/screenshots_a) for visual evidence of this.  
 
 2. As a First Time Visitor, I want to be able to move through the website in order to access the site's content.
-    1. There is a clear and intuitive navigation bar that provides clear links to the 3 pages of the site.
+    1. There is a clear and intuitive navigation bar that provides links to the 3 pages of the site.
     2. The links change colour when hovered over in order to assure the user that the links work and that they are fully responsive.
     3. The nav-bar occurs across all four pages of the website so as to always give the user the option of navigating to another page. 
 NB. see (./assets/screenshots/screenshots_b) for visual representation of this.
@@ -134,7 +134,7 @@ NB. see (./assets/screenshots/screenshots_d) for visual representation of this.
 2. As a Returning Visitor, I want to be able to access the website on various different screen sizes and for it still to evoke a positive response.
     1. By implementing a combination of bootstrap responsive design and media queries at varying viewport widths, the website is fully responsive with regards to the viewport 
     size of the device that it is being viewed on.  
-    2. Thus, the site will be aesthetically pleasing to the user on matter the viewport size.
+    2. Thus, the site will be aesthetically pleasing to the user no matter the viewport size.
 NB. see (./assets/screenshots/screenshots_e) for visual representation of this.
 
 In order to ensure broad functionality, the website was tested across a variety of internet browsers such as Google Chrome, Internet Explorer, Microsoft Edge and Safari.  
