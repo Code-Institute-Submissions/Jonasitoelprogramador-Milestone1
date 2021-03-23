@@ -169,6 +169,11 @@ Under "Source", click the dropdown called "None" and select "Master Branch".
 The page will automatically refresh.
 Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+##Accessibility
+Normally, an alt text would be provided for all of the images on the website.  On this site, however, all of the images are set as a background as their removal does not change
+the meaning or function of the site.  The images do have a "title", however, in order to have some text describing the image.  In terms of the videos, their removal would change
+the functionality of the site, however, "alt" is not supported by "iframe" (used to display the video tiles) and thus "title" is again used to provide text description.
+
 ##Credits
 
 ###Readme
