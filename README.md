@@ -23,13 +23,15 @@ involving tapenade!).
 ###User Stories
 
 ####First-time-users
-As a First Time Visitor, I want to have a positive emotional response when visiting the site (be impressed with the quality of the website) so that I am encourgaed to return.
-As a First Time Visitor, I want to be able to move through the website in order to access the site's content.
-As a First Time Visitor, I want to be able to understand the basics of the brand and the products that are being promoted.
+
+1. As a First Time Visitor, I want to have a positive emotional response when visiting the site (be impressed with the quality of the website) so that I am encourgaed to return.
+2. As a First Time Visitor, I want to be able to move through the website in order to access the site's content.
+3. As a First Time Visitor, I want to be able to understand the basics of the brand and the products that are being promoted.
 
 ####Returning-users
-As a Returning Visitor, I want to be able to contact the business and be able to find their social meadia links.
-As a Returning Visitor, I want to be able to access the website on various different screen sizes and for it to evoke a positive response.
+
+1. As a Returning Visitor, I want to be able to contact the business and be able to find their social meadia links.
+2. As a Returning Visitor, I want to be able to access the website on various different screen sizes and for it to evoke a positive response.
 
 An example of a user visiting the site for the first time could be someone who arrives on the landing page, reads the blurb about what tapenade is,
 looks through the product list and send Journeyman a message asking when the products will be availiable. 
@@ -37,22 +39,27 @@ looks through the product list and send Journeyman a message asking when the pro
 ###Design
 
 ####Colour Scheme
+
 There are three main colours: white, olive green and dark purple.  The latter two are the same as the colours of the hero image on the index page
 thus producing an olive influenced colour harmony.
 
 ####Typography
+
 The main font used in the site is "Noto Serif KR".  After experimenting with various fonts I found that this one had the right balance of 
 being both classical and understated.  I added the backup font "serif" which will return the operating system's fallback serif font in case of the
 primary font not loading.
 
 ####Imagery
+
 The website makes use of lots of olive-related imagery as olives and olive trees/branches are more aesthetically appealing than pictures of tapenade.
 That said, there are images of jars of tapenade on the product info page as it is important to give a visual representation of the product being promoted.
 
 ###Wireframes
+
 [Wireframes] (./assets/wireframes/wireframes_for_journeyman)
 
 ##Features
+  
   The site is compromised of 4 separate pages: "Home" page, "Product Info" page, "Videos" page and "About Us" page.  
   
   All four pages are responsive (computer, ipad, smartphone or anything in between!).  This responsive design is achieved through a combination of 
@@ -82,6 +89,7 @@ form gives the user more information as to the nature of the company that they a
 ##Technologies
 
 ###Languages 
+
 HTML5 was used in order to provide the text content the structure of the site.
 CSS3 was used to add styling.
 
@@ -144,7 +152,7 @@ Finally, the links, image loading and media were tested by serveral different in
 
 ###Automated Testing
 
-  The HTML and the CSS code were put through the W3C schools HTML and CSS validators respectively to eliminated any potential syntax errors.
+The HTML and the CSS code were put through the W3C schools HTML and CSS validators respectively to eliminated any potential syntax errors.
 
 ###Bugs
 
@@ -170,6 +178,7 @@ The page will automatically refresh.
 Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ##Accessibility
+
 Normally, an alt text would be provided for all of the images on the website.  On this site, however, all of the images are set as a background as their removal does not change
 the meaning or function of the site.  The images do have a "title", however, in order to have some text describing the image.  In terms of the videos, their removal would change
 the functionality of the site, however, "alt" is not supported by "iframe" (used to display the video tiles) and thus "title" is again used to provide text description.
@@ -177,12 +186,15 @@ the functionality of the site, however, "alt" is not supported by "iframe" (used
 ##Credits
 
 ###Readme
+
 The "Deployment" section of the Readme file is obtained from the Code Institue SampleREADME document which can be found: (https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
 
 ###Content
+
 The HTML that creates the form on the "About Us" page was obtained from the WC3 schools website: (https://www.w3schools.com/html/html_forms.asp)
 
 ###Media
+
 All images were obtained from Shutterstock and Unsplash (for links see Frameworks, Libraries and Programs section).
 Videos are from Youtube and they are external links i.e. they are not hosted by this site.
 
